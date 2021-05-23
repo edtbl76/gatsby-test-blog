@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `@emangini`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ed Mangini`,
+      summary: `who lives and works in Boston building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A personal blog using Gatsby.js`,
+    siteUrl: `https://emangini.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `edmangini76`,
     },
   },
   plugins: [

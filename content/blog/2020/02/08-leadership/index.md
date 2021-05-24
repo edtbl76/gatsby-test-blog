@@ -5,7 +5,7 @@ description: "The reality of leadership is that it often doesn't come with the g
 
 ---
 
-![Resume](./image.png)
+![Resume](content/blog/2020/02/2020-02-98-leadershiphip/image.png)
 
 Being a leader, in any field or organization (professional or otherwise) is challenging.
 

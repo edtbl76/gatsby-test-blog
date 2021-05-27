@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery} from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin, faGithub, faRedditSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 const iconStyle = {
@@ -21,6 +21,7 @@ export default function SocialLinks() {
                       email
                       linkedin
                       github
+                      reddit
                   }
               }
           }
@@ -45,6 +46,10 @@ export default function SocialLinks() {
 
       <a style={iconStyle} href={`https://twitter.com/${social.twitter}`}>
         <FontAwesomeIcon icon={faTwitter} />
+      </a>
+
+      <a style={iconStyle} href={`https://reddit.com/user/${social.reddit}`}>
+        <FontAwesomeIcon icon={faRedditSquare} />
       </a>
     </div>
   )

@@ -3,7 +3,7 @@ title: Distributed Systems, Platforms and Infrastructure
 date: "2021-01-16T00:00:00.169Z"
 description: Perhaps one of the most misunderstood sets of terms includes "infrastructure", "platform" and "distributed systems". 
 ---
-![Header Image](content/blog/2021/01/2021-01-16-distributed-systemsems/img.png)
+![Header Image](./img.png)
 
 Modern software is a sea of acronyms, abbreviations in addition to the flotsam and jetsam of concentric circles created by overlapping terminologies. This washes over technology organizations with conflation and confusion that is a departure from the utopian ubiquitous language sought after for a frictionless design and development lifecycle.
 
@@ -23,7 +23,7 @@ I think [Gartner](http://gartner.com/) provides a nice simple definition that I'
 > software product.
 
 Another great definition of infrastructure can be extracted from the cloud-computing concept of Infrastructure-as-a-Service (IaaS)
-![IAAS vs. Paas](content/blog/2021/01/2021-01-16-distributed-systemsems/iaasvspaas.webp)
+![IAAS vs. Paas](./iaasvspaas.webp)
 
 Based on this visual, let's put a stake in the ground, further refining Gartner's definition above, with the following:
 

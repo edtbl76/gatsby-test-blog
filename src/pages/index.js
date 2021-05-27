@@ -5,14 +5,17 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+export default function IndexPage(props) {
+  const data = props.data
+  const location = props.location
+
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
+        <Seo title="Empty Blog" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -25,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title={"Home"} />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
@@ -62,8 +65,6 @@ const BlogIndex = ({ data, location }) => {
     </Layout>
   )
 }
-
-export default BlogIndex
 
 export const pageQuery = graphql`
   query {

@@ -4,7 +4,7 @@ date: "2021-01-26T00:00:00.169Z"
 description:
 ---
 
-![Scrabble](content/blog/2021/01/2021-01-26-doneone/img.png)
+![Scrabble](./img.png)
 
 One of the most common challenges in any form of work is trying to define completeness. Technology value streams are no different.
 

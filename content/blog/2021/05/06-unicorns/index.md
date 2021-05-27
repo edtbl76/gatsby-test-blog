@@ -6,7 +6,7 @@ description:
 
 **Disclaimer: This is a SoC (Stream of Consciousness) Post. This means that any and all structure is incidental.**
 
-![Unicorn Knight](content/blog/2021/05/06-unicornsrns/unicorn.jpg)
+![Unicorn Knight](./unicorn.jpg)
 
 Ok Ok (Ok!). I know, unicorns really do exist in terms of tech. However, I'd much rather have a dog sled team.
 

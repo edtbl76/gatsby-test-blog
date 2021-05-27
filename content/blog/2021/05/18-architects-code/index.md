@@ -4,7 +4,7 @@ date: "2021-05-18T00:00:00.169Z"
 description: "Yes, software architects should code. In order to understand why, it's important to understand the career 
 paths and organization of the general aspects of software teams"
 ---
-![Work Environment](./img.png)
+![Work Environment](./workstation.png)
 
 Does the Node Foundation deprecate versions aggressively? (Yes)
 
@@ -56,8 +56,6 @@ We've covered individual contributions in terms of development as well as the ma
 
 So what does an architect do?
 > I have no idea what you do. - My Wife
-
-![Ron Swanson](./ron_swanson.png)
 
 Most people don't know what software architects do. When asked to define it, responses tend to lean towards the general definition of what an architect does.
 

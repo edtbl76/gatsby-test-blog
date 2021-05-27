@@ -3,9 +3,9 @@ module.exports = {
     title: `@emangini`,
     author: {
       name: `Ed Mangini`,
-      summary: `who lives and works in Boston building useful things.`,
+      summary: `A Technology Blog about useful stuff.`,
     },
-    description: `A personal blog using Gatsby.js`,
+    description: `A technology blog built using Gatsby.js`,
     siteUrl: `https://emangini.com`,
     social: {
       twitter: `edmangini76`,

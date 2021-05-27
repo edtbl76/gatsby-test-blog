@@ -9,6 +9,10 @@ module.exports = {
     siteUrl: `https://emangini.com`,
     social: {
       twitter: `edmangini76`,
+      email: `me@emangini.com`,
+      linkedin: `edmangini76`,
+      github: `edtbl76`,
+      reddit: `emangini`,
     },
   },
   plugins: [

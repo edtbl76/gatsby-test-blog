@@ -16,6 +16,7 @@ export default function Layout(props) {
       <h1 className="main-heading">
         <Link to="/">{title}</Link>
       </h1>
+
     )
   } else {
     header = (
@@ -29,10 +30,7 @@ export default function Layout(props) {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
         {header}
-        {/* Kludgy. Fix this later.*/}
-        <ul>
-          <SocialLinks />
-        </ul>
+        <SocialLinks />
       </header>
       <main>{children}</main>
       <footer>

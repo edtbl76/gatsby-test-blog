@@ -30,7 +30,9 @@ export default function Layout(props) {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
         {header}
+
       </header>
+
       <SocialLinks />
       <hr />
       <main>{children}</main>

@@ -33,10 +33,6 @@ export default function SocialLinks() {
 
   return (
     <div>
-      <a style={iconStyle} href={`mailto:${social.email}`}>
-        <FontAwesomeIcon icon={faEnvelope} />
-      </a>
-
       <a style={iconStyle} href={`https://linkedin.com/in/${social.linkedin}`}>
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
@@ -56,6 +52,10 @@ export default function SocialLinks() {
       <Link style={iconStyle} to={"/rss.xml"}>
         <FontAwesomeIcon icon={faRss} />
       </Link>
+
+      <a style={iconStyle} href={`mailto:${social.email}`}>
+        <FontAwesomeIcon icon={faEnvelope} />
+      </a>
     </div>
   )
 

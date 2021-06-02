@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery} from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faLinkedin, faGithub, faRedditSquare } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin, faGithub, faRedditSquare, faFacebook} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faRss } from '@fortawesome/free-solid-svg-icons'
 
@@ -23,6 +23,7 @@ export default function SocialLinks() {
                       linkedin
                       github
                       reddit
+                      facebook
                   }
               }
           }
@@ -43,6 +44,10 @@ export default function SocialLinks() {
 
       <a style={iconStyle} href={`https://twitter.com/${social.twitter}`}>
         <FontAwesomeIcon icon={faTwitter} />
+      </a>
+
+      <a style={iconStyle} href={`https://facebook.com/${social.facebook}`}>
+        <FontAwesomeIcon icon={faFacebook} />
       </a>
 
       <a style={iconStyle} href={`https://reddit.com/user/${social.reddit}`}>

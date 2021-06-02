@@ -13,6 +13,7 @@ module.exports = {
       linkedin: `edmangini76`,
       github: `edtbl76`,
       reddit: `emangini`,
+      facebook: `emanginiblog`,
     },
   },
   plugins: [

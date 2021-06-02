@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ShareStrip from "../components/sharestrip"
 
 export default function BlogPostTemplate(props) {
   const data = props.data
@@ -34,6 +35,7 @@ export default function BlogPostTemplate(props) {
         />
         <hr />
         <footer>
+          <ShareStrip />
           <Bio />
         </footer>
       </article>

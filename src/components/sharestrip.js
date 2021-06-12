@@ -12,8 +12,8 @@ import { faTwitter, faLinkedinIn,  faRedditAlien , faFacebookF } from '@fortawes
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 
-export default function ShareStrip() {
-  const url = "https://emangini.com"
+export default function ShareStrip(props) {
+  const url = props.site_url + props.path
 
   return (
     <div className={"share-strip"}>

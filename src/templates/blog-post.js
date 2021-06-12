@@ -35,7 +35,7 @@ export default function BlogPostTemplate(props) {
         />
         <hr />
         <footer>
-          <ShareStrip />
+          <ShareStrip site_url={data.site.siteMetadata.siteUrl} path={location.pathname}/>
           <Bio />
         </footer>
       </article>
@@ -78,6 +78,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(id: { eq: $id }) {

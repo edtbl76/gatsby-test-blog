@@ -6,7 +6,8 @@ module.exports = {
       summary: `A Technology Blog about useful stuff.`,
     },
     description: `A technology blog built using Gatsby.js`,
-    siteUrl: `https://emangini.gtsb.io`,
+    // siteUrl: `https://emangini.gtsb.io`,
+    siteUrl: `https://emangini.com`,
     social: {
       twitter: `edmangini76`,
       email: `me@emangini.com`,

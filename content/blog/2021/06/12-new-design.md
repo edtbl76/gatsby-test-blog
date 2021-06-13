@@ -1,10 +1,8 @@
 ---
 title: "New Site Design"
 date: "2021-06-12T00:00:00.169Z"
-description: ""
+description: "We're Live! (insert Bill O'Reilly meme/gif here!)"
 ---
-
-We're Live! (insert Bill O'Reilly meme/gif here!)
 
 Welcome to the new site! 
 

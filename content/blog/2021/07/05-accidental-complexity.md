@@ -156,7 +156,32 @@ I've dealt with vendors whose enterprise solutions were absolutely phenomenal an
 time, I've dealt with vendors whose extended feature set could easily be provided by locally developed integrations, 
 and whose support experience was inconceivably poor. 
 
+Sometimes there aren't going to be available tools, the existing tools aren't going to meet your needs, or your 
+requirements will conflict with what is out there. (You also might be in direct competition with the tools!)
 
+In these cases, building your own, or some hybrid solution of build and buy is required. 
+
+This is ok. Flexible architectures are a necessity. Technology changes at an alarming rate. Brittle designs that are 
+intended to "stand the test of time" do so more often than not at great expense to the developers and the users. The 
+best architectures are those that can evolve in a manner that is as painless and transparent as possible to the end 
+users, while being cost effective and uneventful for the developers and architects who deliver it. 
+
+Evolutionary architectures allow accidental complexity to be addressed in a temporally flexible fashion. What is 
+good to day, might not be tomorrow. If we are continuously testing and measuring the system, we will begin to see 
+the stress points long before strain grows to failure. This allows us to navigate the complexity of our solution 
+intelligently with thoughtful intent, minimizing the accidental nature of the complexity of our system. 
+
+Before I sail off into the wild blue yonder, I want to emphasize the term "accidental complexity". Specifically, I 
+want to focus on the word "accidental". While ignorance and change resistance are problems to be solved in any 
+organization, they aren't malicious problems. There are many reasons that organizations fall into these patterns, 
+most of which are entirely valid. As of this writing, software is still created by people. We are fallable, funny 
+creatures. If we attempt to solve accidental complexity by treating it as willful misconduct or intended slight, 
+we're more likely to exacerbate the problem. 
+
+Any attempt to rectify challenges in our operational models must be done with compassion and a mindset of inclusion 
+and collaboration. It was "just an accident". 
+
+Just like spilled milk, we'll clean it up and pour a new glass. 
 
 
 

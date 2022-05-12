@@ -17,7 +17,10 @@ become a frustrating exercise in failed memory recall a year from now.... and th
 Good documentation practices are hard to come by. Sentiments in many books, blogs, etc. tend to push the court of public 
 opinion to the extremes:
 
-    No documentation at all vs. Tomes of Confluence pages.
+```text
+No documentation at all vs. Tomes of Confluence pages.
+```
+    
 
 ### No Documentation
 
@@ -36,12 +39,14 @@ New hires read through the documentation and note that there is conflicting info
 expensive, effort to determine what is accurate and what isn't. 
 
 
-    NOTE: Sometimes, we'll simply look for the newest resource and 
-            discard the old. I've worked in an client enviornment 
-            where a team  had forked an existing project (and it's 
-            confluence pages) only to later abandon that fork. 
-            None of the original content had been updated, so the 
-            latest documentation was actually less relevant.
+```text
+NOTE: Sometimes, we'll simply look for the newest resource and 
+    discard the old. I've worked in an client enviornment 
+    where a team  had forked an existing project (and it's 
+    confluence pages) only to later abandon that fork. 
+    None of the original content had been updated, so the 
+    latest documentation was actually less relevant.
+```
 
     
 **Lesson Learned**: Humans apparently don't support [Generation Clocks](https://martinfowler.com/articles/patterns-of-distributed-systems/generation.html) 
@@ -158,14 +163,14 @@ What you see here is my opinion. It isn't always the best way to accomplish thin
 but rather the advice of many colleagues smarter than I, and reading an exorbitant amount of literature on the subject
 from non-colleagues who are much smarter than I. 
 
-#### 1. An ADR has three goals.
+#### An ADR has three goals.
 
 Every ADR I've written has had three primary sections. 
 1. Problem Statement
 2. An **opinionated** explanation of the solution to the problem.
 3. A brief explanation of the any side effects or risks introduced by this solution, and how they'll be mitigated. 
 
-#### The Problem Statement
+##### 1. The Problem Statement
 
 This should be a leanly written description of what we're trying to solve, and what the value of solving it is. Why are
 we doing this? Who is asking for it? Is it a dependency of some other work? What are the consequences of not solving it?
@@ -175,7 +180,7 @@ good chance that you don't understand the problem as well as you probably should
 it's definitely a standard I've set for myself when I write an ADR.) If I can't describe the problem with fluency, how
 confidently can I talk about solving it? 
 
-#### The Solution
+##### 2. The Solution
 
 When coaching others, this is one of the section I often find to be misunderstood. The most common challenge I see is 
 that the section describes what **can** be done rather than what **you** are planning to do. It must be an opinionated
@@ -189,9 +194,11 @@ the approval of the ADR.)
 
 Continuing from the prior example, it might look like this:
 
-    How am I going to design (or select) a distributed locking system 
-    to manage the quorum for the distributed data store we are 
-    building? 
+```text
+How am I going to design (or select) a distributed locking system 
+to manage the quorum for the distributed data store we are 
+building? 
+``` 
 
 The focus of this section is to answer that question. This is a segue into another issue I find in ADRs. The solution
 section often turns into a software review. We don't need to describe additional features, bells and whistles of
@@ -207,7 +214,7 @@ nature. If I want to make this kind of association, I usually create a footnote 
 away from the business/technology contexts of the record. I also augment the association with substantial verbiage 
 about why I'm making the association.
 
-##### To Compare or not to Compare...
+###### To Compare or not to Compare...
 
 A fairly polarizing aspect of this section is whether or not to compare your solution with industry alternatives. I 
 think this is a valid approach as long as you can do so without falling back into the "software review" anti-pattern. 
@@ -223,7 +230,7 @@ do their own due diligence with a different outcome than your opinion. This isn'
 might be right! (This goes back to what I mentioned with regard to knowing the problem...)
 
 
-##### To Diagram or not to Diagram. 
+###### To Diagram or not to Diagram. 
 
 Ideally, you shouldn't have to create a new diagram from scratch, because something will already exist. However, 
 ADRs tend to "zoom in" a bit into the detail of an architecture, which might be closer to the actual implementation
@@ -234,7 +241,7 @@ purpose of the ADR is to communicate a design decision. If a diagram is going to
 Just remember that there are only 8 hours in a day. I can't think of a scenario that would warrant the need to create 
 an entire set of new architectural documents for a single decision. 
 
-#### Side Effects and Consequences
+##### 3. Side Effects and Consequences
 
 This section should not be a list of every possible thing that can go wrong. The easiest example would be choosing an
 AP vs. CP system. Availability vs. consistency is one of the most well known tradeoffs in software. This is the operative

@@ -9,14 +9,15 @@ export default function AboutPage() {
 
       <h2>whoami</h2>
       <p>
-        I'm both a software technologist and a people leader. I don't like the term architect, but I love the work. I
-        prefer to think of myself as a "Horizontal Technologist".
+        I'm both a software technologist and a people leader.
 
-        I enjoy strategic discussions that construct and refine vision, while also enjoying immense passion for the
+        I enjoy strategic discussions that construct and refine vision and I have an unquenchable thirst for the
         tactical elements of delivery.
 
         I love coaching and mentoring, whether it be fresh-out individual contributors or other leaders looking towards
         the next leg of their journey.
+
+        I'm often described as very "meta". I love to be an "architect of architects" or a "leader of leaders".
       </p>
 
       <p>>
@@ -24,8 +25,8 @@ export default function AboutPage() {
         but I definitely lean towards polyglot. The characteristics of different languages have pros and cons that constitute
         tradeoffs in architectural decisions just as any other technology.
 
-        I've at the very least delivered projects using:
-          Java, C, C++, Python, Ruby, PHP, Perl, Erlang, Go, Swift, JavaScript and C#
+        I've whet my appetite over the years delivering projects with:
+          Java, Kotlin, Scala, C, C++, Python, Ruby, PHP, Perl, Erlang, Go, Swift, JavaScript and C#
       </p>
 
       <p>
@@ -33,9 +34,11 @@ export default function AboutPage() {
         ignorance and inconsistencies, however giving us enough elbow room to scale through experimentation, failure and
         learning.
 
-        The individual players change from time to time, but the underlying scope remains the same.
+        The individual players change from time to time, but the underlying scope remains the same. Striving for the
+        "best" all in one go often yields no results, but getting "something" out there allows us to collect
+        feedback and improve, continuously.
 
-        None of that matters, though, if we don't encourage and maintain a culture that supports it.
+        None of that matters, though, if we don't foster and maintain a culture that supports it.
       </p>
 
       <p>

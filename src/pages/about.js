@@ -25,8 +25,16 @@ export default function AboutPage() {
         but I definitely lean towards polyglot. The characteristics of different languages have pros and cons that constitute
         tradeoffs in architectural decisions just as any other technology.
 
-        I've whet my appetite over the years delivering projects with:
-          Java, Kotlin, Scala, C, C++, Python, Ruby, PHP, Perl, Erlang, Go, Swift, JavaScript and C#
+        I've whet my appetite over the years delivering projects with (in no particular order):
+          Java, Kotlin, Scala, C, C++, Python, Ruby, PHP, Perl, Erlang, Go, Swift, JavaScript and C#.
+
+        I have a passion for distributed systems, problems of scale and the underlying technologies that comprise these
+        scenarios. Holistically, I consider myself a generalist striving for technological understanding both a
+        mile wide and a mile deep. While I know tradeoffs of time and urgency prevent this from being possible, the
+        goal keeps me nimble.
+
+        I still have that insatiable curiosity of a 4 year old asking "why"? I believe that innovation, progress and
+        quality comes from a culture built on asking questions rather than "having" answers.
       </p>
 
       <p>

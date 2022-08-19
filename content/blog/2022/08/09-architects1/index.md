@@ -1,6 +1,6 @@
 ---
 title: "Defining The Architect Role, Part 1: An Ontological View" 
-date: "2022-08-17T00:00:00.169Z"
+date: "2022-08-09T00:00:00.169Z"
 description: "Naming is hard.
 The title of 'Architect' is one with a storied history.
 From fish tales, to epic 

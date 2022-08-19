@@ -1,10 +1,8 @@
 ---
 title: "Defining The Architect Role, Part 2: Fitting In" 
 date: "2022-08-17T00:00:00.169Z"
-description: "Naming is hard.
-The title of 'Architect' is one with a storied history.
-From fish tales, to epic 
-journeys, to ghoulish nightmares,  technology architect responsibilities and roles are hard to pin down.
+description: "
+Episode IV: The Technologists Strike Back
 In part two,
 I'd like to compare and contrast architecture and engineering roles in order to demonstrate
 how these roles, and the skill sets, can compliment each other in a technology organization.

@@ -1,8 +1,11 @@
 ---
-title: "Architects Part 1" 
+title: "Defining The Architect Role: Part 1" 
 date: "2022-08-17T00:00:00.169Z"
-description: "Naming is hard. The title of 'Architect' is one with a storied history. From fish tales, to epic 
-journeys, to ghoulish nightmares technology architect responsibilities and roles are hard to pin down. In part one, 
+description: "Naming is hard.
+The title of 'Architect' is one with a storied history.
+From fish tales, to epic 
+journeys, to ghoulish nightmares,  technology architect responsibilities and roles are hard to pin down.
+In part one, 
 I aim to provide the tools that can be used for tech and non-tech folk alike to communicate and work together to
 help staff these roles as well as to evaluate how they fit into your organization."
 ---
@@ -42,21 +45,22 @@ debates surrounding the definition of an architect within technological pursuits
 There are some fantastic concepts throughout all of these materials, and despite the advancements in technology, the
 core concepts of many of these definitions and perspectives are centered largely around the same basic topics.
 This suggests that there is some truth within the brevity we can enjoy from the definition provided above. While 
-simple definitions forego the necessity of details and specificity, there is an incredible value of being able to 
+simple definitions forego the necessity of details and specificity, there is incredible value to being able to 
 provide high-level, general definitions. These buckets of classification are integral characteristics of complicated
 systems with many moving parts. In some cases these buckets provide stability of separate, but similar, concepts to allow
-for comparisons. Yet in other cases, these buckets act as barrier to concepts that aren't related, allowing our limited
-brains the relief from taxation from scope that we simply cannot provide a commanding sense of focus. In summary, the
-ability to stumble upon simple definitions provides sure footing to large, telescoping concepts that can quickly 
-exceed our fleeting attention spans. 
+for comparisons.
+Yet in other cases, these buckets act as barrier to concepts that aren't related.
+This allows our limited brains relief from taxation from scope that we simply cannot provide a commanding sense of focus.
+In summary, the ability to stumble upon simple definitions provides sure footing to large, 
+telescoping concepts that can quickly exceed our fleeting attention spans. 
 
 Transparently, I'm not a fan of the term.
-I don't like the terms engineer or architect.
-In some respects, I feel that the "naming is hard" school of thought has misrepresented naming as esoteric,
+I don't like using the words engineer or architect to describe these roles.
+In some respects, I feel that the "naming is hard" school of thought has misrepresented titling as esoteric,
 leading to the borrowing of nomenclature established for other purposes.
-Engineers and architects in the traditional sense built things that were intended to stand 
-the test of time as opposed to the dynamic iteration presented by modern technology streams.
-I've always concerned each and every person working in a technological field as a capital-T Technologist.
+Engineers and architects, in the traditional sense, built things that were intended to stand 
+the test of time as opposed to the dynamic iteration presented in modern technology streams.
+I've always considered each and every person working in a technological field as a "capital-T Technologist."
 Whether you are configuring applications for operations organizations, writing code,
 or designing some*thing*, you are all technologists aligned in some form towards a common goal.  
 
@@ -100,16 +104,20 @@ windows rolled down on a breezy afternoon of the dog days of summer, that's a wo
 # Architect: The Job. 
 
 Architects are responsible for the design of something. 
-Some architects might focus on one of these areas, and others might be balanced in various ratios across two or all.
-These responsibilities are categorized based on the output being generated and a generic paradigm used to provide this 
-output.
+Some architects might focus on one of the proposed categories,
+while others might be balanced in various ratios across two or all.
+These responsibilities are categorized based on the output being generated and the nature of the path and intent to
+get to that output.
 
-It's also important to recognize, that while these categories represent the best form of decomposition for the roles
+It's also important to recognize, that while these categories represent a useful form of decomposition for the roles
 in order to discuss them in terms of recruiting and hiring, there is also plenty of cross over and leakage within
-the definitions. Like most things that exist in nature, there are glorious imperfections! 
+the definitions. 
+Like most things that exist in nature, there are glorious imperfections! 
+Despite the precision and detail required in technological careers, we must strive to become more comfortable with
+the flexibility and maneuverability that comes with agility of thought.
 
 My goal is to do the most good by aiming for the normalized distribution of roles. 
-For those outside the inter-quartile range, the tails, or even the outliers, I apologize if I've missed you. 
+For those outside the inter-quartile range, the tails, or even the sparse outliers, I apologize that I've missed you.
 
 This exercise is not intended to establish some long term nomenclature or language, but rather to provide a temporary
 ontological view of architectural work that I believe helps frame the discussion relative to hiring, team building, 

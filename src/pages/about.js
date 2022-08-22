@@ -12,11 +12,11 @@ export default function AboutPage() {
       <p>
         I enjoy strategic discussions that construct and refine technical vision.
 
-        I have an unquenchable thirst for the tactical elements of delivery. Whether we call it engineering excellence
+        I also have an unquenchable thirst for the tactical elements of delivery. Whether we call it engineering excellence
         or the path to sensible defaults, finding ways to optimize the time and effort spent delivering solutions to
         our constituents is something I enjoy spending time on.
 
-        I'm often described as very "meta". I love to be an "architect of architects" or a "leader of leaders".
+        I'm often described as very meta. I love to be an architect of architects or a leader of leaders.
       </p>
 
       <h3>I design things...</h3>

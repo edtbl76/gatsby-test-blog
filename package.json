@@ -39,6 +39,11 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75"
   },
+  "overrides": {
+    "package-json": {
+      "got": "^11.8.5"
+    }
+  },
   "devDependencies": {
     "prettier": "2.2.1"
   },

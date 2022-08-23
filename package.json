@@ -39,6 +39,20 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75"
   },
+  "overrides": {
+    "package-json": {
+      "got": "^11.8.5"
+    },
+    "@graphql-tools/url-loader": {
+      "cross-fetch": "3.1.5"
+    },
+    "css-select": {
+      "nth-check": "^2.1.1"
+    },
+    "@pmmmwh/react-refresh-webpack-plugin": {
+      "ansi-html": "^0.0.8"
+    }
+  },
   "devDependencies": {
     "prettier": "2.2.1"
   },

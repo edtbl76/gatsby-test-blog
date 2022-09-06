@@ -345,6 +345,22 @@ These roles would ultimately be no different than a software architect working i
 end purpose of the technology being designed.
 Organizational technologists are focused on providing tools, assets and applications for internal stakeholders. 
 
+### Data/Information Architect
+
+Another special type of technical architect, typically associated with the organization, is the Data/Information
+architect.
+These architects tend to be focused on the governance and governance maturity models associated with an organization's
+information assets. 
+
+One of the interesting aspects of this role is when an organization is managing or hosting customer data.
+This tends to fall into the same scope as a product architect, however, the focus is still heavily influenced by 
+the manner in which the storage system is defined and defended. 
+
+Some of the organizations that do this will have two separate sets of staff for managing enterprise data and customer or
+client data, while others design the client-facing systems in such a manner that they can be administered and operated
+by the same staff.
+
+
 ## The Enterprise Architect
 ### (Sometimes a Chief Architect)
 
@@ -414,6 +430,18 @@ whereas product managers in the same organization were spread across multiple pr
 This role was designed to help extend the scope of the product manager, by obfuscating some level of detail away from
 them.
 Presumably these product managers were emphasizing stakeholder management skills. 
+
+## Data/Information Architect
+
+As mentioned in the organizational section, there is a category of technical architect focused on data and information. 
+In a product-focused role, data and information architects are usually focused on designing schemas
+(or application constraints in so-called 'schemaless' systems).
+Sometimes, they are a hybrid application/data architect, focused on designing how applications (or larger systems)
+provide capabilities for managing data, caching data, persisting data, etc.
+
+For companies that offer some form of managed services that deals with persistence (i.e. Database as a Service, or 
+even Storage as a Service), it is likely that the data architects will play a role more synonymous with their
+organizational counterparts.
 
 ## UX Architect
 

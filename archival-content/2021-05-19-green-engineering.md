@@ -3,7 +3,6 @@ title: "It Ain't Easy Being Green"
 date: "2021-05-19T00:00:00.169Z"
 description: "Thanks, Kermit. I'll take it from here."
 ---
-![Cover](./img.png)
 
 This is a quick note on Sustainable Software Engineering or [Green Software Engineering](https://principles.green/). I'll admit, I prefer the 
 latter. The former nomenclature collides with the concept of [sustainability](https://www.amazon.com/Sustainable-Software-Development-Agile-Perspective/dp/0321286081) as an architectural characteristic.
@@ -17,7 +16,7 @@ nemesis/competitor whose site is much less eco-friendly than yours. Just kidding
 Something I found particularly interesting is comparing the organizations of the [FAANG](https://www.investopedia.com/terms/f/faang-stocks.asp). _(NOTE: I ran this test 
 successively for 10 days and took the averages. The pages were loaded in incognito mode on Google Chrome, Mozilla Firefox, and Opera. I took the average across each browser and day, but there wasn't much variation. The distribution of  data was fairly clustered). Needless to say, this is just a snapshot. It's a very cursory view._
 
-![FAANG](./faang.png)
+![FAANG](archival-content/faang.png)
 Facebook and Google were the cleanest sites, although given the nature of the root pages, this has to be taken with a grain of salt. I did test subdomains like the developer sites, open source sites, etc. but the data isn't reflected in the chart above. That being said, I didn't observe all that much difference.
 
 Apple provided a fair middle ground (and probably a less incomplete example, as the root provides more content). Amazon and Netflix didn't do so well. This is also not surprising.

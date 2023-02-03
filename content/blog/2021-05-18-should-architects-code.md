@@ -4,7 +4,6 @@ date: "2021-05-18T00:00:00.169Z"
 description: "Yes, software architects should code. In order to understand why, it's important to understand the career 
 paths and organization of the general aspects of software teams"
 ---
-![Work Environment](./workstation.png)
 
 Does the Node Foundation deprecate versions aggressively? (Yes)
 
@@ -71,7 +70,7 @@ Where as software development is a depth-driven activity, software architecture 
 
 More accurately, the problem may be a parallelogram-like shape with specific dimensions and strange notches throughout the line segments. A solution may have achieved the dimensions, but failed to match each shape characteristic 1:1.
 
-![comparison](./comparison.png)
+![comparison](content/img/comparison.png)
 The diagram above reflects a more common "miss" scenario in terms of architecture and requirements. The diagram on the left represents the requirements, and the diagram on the right represents the architecture.
 
 There are only two variations here. I did this deliberately to emphasize the benefit of small batches of work. I could easily put a large UML diagram here, and then lose half of the audience trying to explain the design, which isn't the purpose of the article.
@@ -87,7 +86,6 @@ There are a number of reasons why this might happen, some of which might even be
 Architectural decisions are primarily about making comparisons between alternate solutions to problems based on negotiating the tradeoffs to come up with the closest fit to the problem. There are no silver bullet solutions, no one-size-fits-all designs. Many businesses attempt to compete by finding ways to differentiate their products and offerings from competitors within the same space. The very nature of their strategy is to try to redefine the problem space in a manner that makes it more or less attractive than someone else doing the same thing. This means that an architect could leave their job at one company and take another position at a direct competitor, and still have to entirely rethink architectural characteristics and solutions due to the way that the business is approaching the problem.
 
 If you're an architect, then breadth is your butter. (I'm very sorry, I couldn't resist.)
-![Breadth and Butter](./bread_and_butter.png)
 
 Ultimately, most software architectures are complex systems with many moving parts. In order to navigate the vast array of colors, we have to have a diverse palette from which to paint.
 
@@ -110,7 +108,6 @@ Here, I'm proposing a similar solution, at a higher level. A gradient software e
 In the same manner, breadth will always be the primary purpose of an architect. In order for architects and engineering teams to collaborate, a virtual handshake is best constructed by the ratios and crossover of depth-to-breadth in a manner that engineering teams can provide enough breadth to understand architects, and architects can maintain enough depth to understand the needs of the developers to whom they provide their designs. What better way to accomplish this, than for architects to write code? (Perhaps using the same suggestions provided in my previous article).
 
 ## Postscript: Don't Get Burnt
-![Burning Rose](./burnt.png)
 
 A word of caution to younger architects is to embrace "breadth as your butter". I have seen many architects attempt to maintain substantial depth to every new technology they learn. Not only does this result in an ineffective balance of skills, but it results in a very fast path to burnout.
 

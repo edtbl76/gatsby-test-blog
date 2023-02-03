@@ -4,7 +4,7 @@ date: "2021-05-17T00:00:00.169Z"
 description: "The \"Bottleneck Trap\" is a common problem in software engineering organizations."
 ---
 
-![Bottlenecks](src/images/bottlenecks.png)
+![Bottlenecks](content/blog/img/bottlenecks.png)
 The "Bottleneck Trap" is a common problem in software engineering organizations. The classic case is the software architect who also owns the coding and implementation of critical components or portions of the code base.
 
 Operational models have evolved broadly over the years such that we can generalize the previous statement to be "senior engineering resource" becomes a bottleneck due to "scope of responsibilities being managed ineffectively".

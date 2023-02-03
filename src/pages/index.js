@@ -68,13 +68,16 @@ export default function IndexPage(props) {
 }
 
 export const pageQuery = graphql`
-  query {
+  query pageQuery($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC } 
+        limit: $limit
+        skip: $skip) {
       nodes {
         excerpt
         fields {

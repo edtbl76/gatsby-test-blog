@@ -4,8 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -34,27 +33,47 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
-
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
 
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+  const posts = result.data.allMarkdownRemark.nodes
 
+  // pagination variable
+  const postsPerPage = 5;
+  const numPages = Math.ceil(posts.length / postsPerPage)
+
+  // Define a template for blog post
+  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+
+  if (posts.length > 0) {
+
+    Array.from({ length: numPages} ).forEach((_, index) => {
       createPage({
-        path: post.fields.slug,
+        path: index === 0 ? `/blog` : `/blog/${i + 1}`,
         component: blogPost,
         context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
+          limit: postsPerPage,
+          skip: index * postsPerPage,
+          numPages,
+          currentPage: index + 1,
         },
       })
     })
+    // posts.forEach((post, index) => {
+    //   const previousPostId = index === 0 ? null : posts[index - 1].id
+    //   const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+    //
+    //   createPage({
+    //     path: post.fields.slug,
+    //     component: blogPost,
+    //     context: {
+    //       id: post.id,
+    //       previousPostId,
+    //       nextPostId,
+    //     },
+    //   })
+    // })
   }
 }
 

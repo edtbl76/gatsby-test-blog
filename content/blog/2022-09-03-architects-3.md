@@ -1,6 +1,6 @@
 ---
 title: "Defining The Architect Role, Part 3: Titles" 
-date: "2022-08-17T00:00:00.169Z"
+date: "2022-09-03T00:00:00.169Z"
 description: "Naming is Hard.
 I'd like to discuss the challenges of titling architect roles by walking through some of the various job titles and
 how those descriptions relate to the concepts introduced in the previous articles."

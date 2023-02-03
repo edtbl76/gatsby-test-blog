@@ -1,6 +1,6 @@
 ---
 title: "Defining The Architect Role, Part 2: Fitting In" 
-date: "2022-08-17T00:00:00.169Z"
+date: "2022-08-19T00:00:00.169Z"
 description: "
 Episode IV: The Technologists Strike Back
 In part two,

@@ -22,7 +22,7 @@ I think [Gartner](http://gartner.com/) provides a nice simple definition that I'
 > software product.
 
 Another great definition of infrastructure can be extracted from the cloud-computing concept of Infrastructure-as-a-Service (IaaS)
-![IAAS vs. Paas](content/img/iaasvspaas.webp)
+![IAAS vs. Paas](src/images/iaasvspaas.webp)
 
 Based on this visual, let's put a stake in the ground, further refining Gartner's definition above, with the following:
 

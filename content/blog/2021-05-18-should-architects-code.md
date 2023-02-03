@@ -70,7 +70,7 @@ Where as software development is a depth-driven activity, software architecture 
 
 More accurately, the problem may be a parallelogram-like shape with specific dimensions and strange notches throughout the line segments. A solution may have achieved the dimensions, but failed to match each shape characteristic 1:1.
 
-![comparison](content/img/comparison.png)
+![comparison](src/images/comparison.png)
 The diagram above reflects a more common "miss" scenario in terms of architecture and requirements. The diagram on the left represents the requirements, and the diagram on the right represents the architecture.
 
 There are only two variations here. I did this deliberately to emphasize the benefit of small batches of work. I could easily put a large UML diagram here, and then lose half of the audience trying to explain the design, which isn't the purpose of the article.

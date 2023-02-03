@@ -4,8 +4,6 @@ date: "2020-01-21T00:00:00.169Z"
 description: 
 ---
 
-![Resume](./cover.png)
-
 Crafting a resume is more than just being able to write well. It is being able to write well for a specific audience, with specific goals and directives in mind. It is taking the broad beating heart of a writer and trying to thread it through a needle.
 
 I've been going through the process of procuring a resume writer. (No it is not directly related to a job search. It comes with the fancy new website, and the dashingly handsome pictures of my made-for-radio mug.)

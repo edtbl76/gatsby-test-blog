@@ -4,8 +4,6 @@ date: "2021-01-26T00:00:00.169Z"
 description:
 ---
 
-![Scrabble](./img.png)
-
 One of the most common challenges in any form of work is trying to define completeness. Technology value streams are no different.
 
 Anyone who has spent any time creating something has had to spend their fair share of the time at the whetstone learning what can only be called a "sense of abandonment". There is always a better way to turn a phrase in an essay or novel. There is always a better  solo in the masterful opus being composed. There is most certainly, always a better way to code that module, class, function, etc.
